@@ -10,12 +10,12 @@
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#index.html">Taylor Osborn</a>
+                <a class="navbar-brand my-brand" href="#index.html">Taylor Osborn</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
+                  <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                       <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
                     </li>
@@ -25,10 +25,34 @@
                     <li class="nav-item">
                       <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                  
-                  </ul>
+                </ul>
+
                 </div>
               </nav>
+
+              <div style="height: 100px; background-color: rgba(255,0,0,0.1);">
+                    <div class="mh-100" style="width: 100px; height: 200px; background-color: rgba(0,0,255,0.1);">Max-height 100%</div>   
+              <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Name</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with you.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Email Address</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Message</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                      </div>
+                    <div class="form-group form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">My intentions are pure</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
 
 </body>
 </html>
